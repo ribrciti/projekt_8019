@@ -14,7 +14,16 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 
+# added gems for this project   ******************************************
+gem 'bulma-rails', '~> 0.7.5'     # CSS
+gem 'simple_form', '~> 4.1'
+#gem 'gravatar_image_tag', '~> 1.2'
+gem 'devise', '~> 4.7'
+#gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+#gem "wysiwyg-rails"
+#gem 'public_activity', '~> 1.5'
 
+#  ***********************************************************************
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
